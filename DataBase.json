@@ -1,0 +1,38 @@
+[
+  {
+    "ID": 0,
+    "Type": 1,
+    "Name": "Phone",
+    "Price": 2000.0
+  },
+  {
+    "ID": 1,
+    "Type": 0,
+    "Name": "Cap",
+    "Price": 10.0
+  },
+  {
+    "ID": 2,
+    "Type": 4,
+    "Name": "Lamp",
+    "Price": 20.0
+  },
+  {
+    "ID": 4,
+    "Type": 3,
+    "Name": "Ball",
+    "Price": 20.0
+  },
+  {
+    "ID": 6,
+    "Type": 2,
+    "Name": "Cheese",
+    "Price": 15.0
+  },
+  {
+    "ID": 7,
+    "Type": 0,
+    "Name": "Trousers",
+    "Price": 20.0
+  }
+]
