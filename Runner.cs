@@ -11,7 +11,7 @@ public class Runner
     {
         string file =
             File.ReadAllText(
-                @"C:\Users\Xiaomi\RiderProjects\OnlineStoreProjectOOP\OnlineStoreProjectOOP\DataBase.json");
+                @"C:\Users\OnePlus\Projects\OnlineStoreProjectOOP\OnlineStoreProjectOOP\DataBase.json");
         dataBase.ProductsList = JsonConvert.DeserializeObject<List<Product>>(file);
         int idForProduct = dataBase.ProductsList![dataBase.ProductsList.Count - 1].ID;
         bool isReg = false;
@@ -272,7 +272,7 @@ public class Runner
             i = 0;
         }
 
-        File.WriteAllText(@"C:\Users\Xiaomi\RiderProjects\OnlineStoreProjectOOP\OnlineStoreProjectOOP\DataBase.json",
+        File.WriteAllText(@"C:\Users\OnePlus\Projects\OnlineStoreProjectOOP\OnlineStoreProjectOOP\DataBase.json",
             JsonConvert.SerializeObject(dataBase.ProductsList, Formatting.Indented));
         return Task.CompletedTask;
     }
